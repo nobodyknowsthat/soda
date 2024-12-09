@@ -1,0 +1,10 @@
+This project consists of four subdirectories:
+
+- [[file:myssd_sdk]]: The device-side runtime of SODA
+- [[file:storpu]]: The device-side library that contains the offloaded compute logic
+- [[file:mcmqhost]]: The host-side userspace driver and applications
+- [[file:postgres]]: The patched version of PostgreSQL 14.6 that supports SODA offloading
+
+The system_wrapper.xsa is used by the myssd_sdk.
+
+Build instructions are available in their respective README files.

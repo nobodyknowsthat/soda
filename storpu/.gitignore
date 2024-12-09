@@ -1,0 +1,13 @@
+/Debug/
+/Release/
+
+.ccls-cache
+*.bak
+
+*.o
+*.d
+*.so
+
+obj
+
+build
